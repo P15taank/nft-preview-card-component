@@ -1,0 +1,96 @@
+    /* style for body */
+    body {
+      background-color: hsl(217, 54%, 11%);
+    }
+
+    * {
+      font-family: 'PT Sans Narrow', sans-serif;
+      font-size: 18px;
+    }
+
+    .container {
+      height: 35rem;
+      width: 20rem;
+      margin: auto;
+      margin-top: 5rem;
+      background-color: hsl(216, 50%, 16%);
+      border-radius: 0.8rem;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .cardimg {
+      height: 18rem;
+      width: 18rem;
+      padding: 1.0rem;
+      border-radius: 1.8rem;
+    }
+
+    .container h1 {
+      color: hsl(0, 0%, 100%);
+      font-size: 30px;
+      margin: 0px;
+      padding-left: 15px;
+    }
+
+    .cardText {
+      color: hsl(215, 51%, 70%);
+      font-size: 22px;
+      font-weight: 400;
+      margin: 5px;
+      padding-left: 10px;
+    }
+
+    .ETHDays {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0rem;
+      padding: 1rem;
+    }
+
+    .ETHDays img {
+      height: 0.9rem;
+    }
+
+    hr {
+      width: 18rem;
+      height: 0.1rem;
+      background-color: hsl(215, 51%, 70%);
+      border: none;
+    }
+
+    .AvatarClass {
+      display: flex;
+      flex-direction: row;
+      font-size: 18px;
+      align-items: center;
+      padding-left: 0.5rem;
+      color: white;
+    }
+
+    .AvatarClass span
+    {
+      color:hsl(215, 51%, 70%);
+    }
+
+    .AvatarClass img {
+      height: 1.4rem;
+      padding: 0.3rem;
+    }
+
+    /* style for footer*/
+    footer {
+      background-color: hsl(0, 0%, 100%);
+      margin-top: 2rem;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
